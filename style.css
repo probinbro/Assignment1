@@ -1,0 +1,32 @@
+.section1 { 
+    background: rgba(229, 84, 115, 0.1);     
+  } 
+   
+  .flower_intro{
+    display: flex; 
+    height: 600px; 
+    justify-content: space-between; 
+    align-items: center; 
+    max-width: 900px; 
+    gap: 30px; 
+    margin: auto; 
+    margin-top: 11vh; 
+  }
+  .flower_intro_text h1 { 
+    font-size: 50px; 
+    margin-bottom: 30px; 
+    color: #272727; 
+  } 
+  .flower_intro_text p { 
+    color: rgba(39, 39, 39, 0.6); 
+  } 
+  .btn { 
+    padding: 20px 43px; 
+    background-color: #e55473; 
+    border: none; 
+    border-radius: 8px; 
+    margin-top: 30px; 
+    color: white; 
+    cursor: pointer; 
+    border: 1px solid #e55473; 
+  }
