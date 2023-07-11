@@ -1,3 +1,10 @@
+* { 
+    margin: 0; 
+    padding: 0; 
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    scroll-behavior: smooth; 
+  } 
 .section1 {
   background: rgba(229, 84, 115, 0.1);
 }
@@ -20,6 +27,9 @@
 .flower_intro_text p {
   color: rgba(39, 39, 39, 0.6);
 }
+/* .flower_photo{
+    border-right: 97px;
+} */
 .btn {
   padding: 20px 43px;
   background-color: #e55473;
@@ -36,9 +46,14 @@
   transition: 0.4s;
   color: gray;
 }
-.Flower_photo img {
+
+.flower_photo img {
   height: 600px;
+
 }
+/* .flower_photo{
+    border: 80px;
+} */
 
 .section3 {
   margin: 80px 0;
@@ -67,3 +82,33 @@
   width: 250px;
   height: auto;
 }
+.section4 { 
+    margin-bottom: 80px; 
+  } 
+  .instagram_text { 
+    max-width: 500px; 
+    margin: auto; 
+    text-align: center; 
+    margin-bottom: 40px; 
+  } 
+  .instagram_text h1 { 
+    margin-bottom: 12px; 
+    font-size: 30px; 
+    color: #272727; 
+  } 
+  .instagram_text p { 
+    line-height: 2; 
+    font-size: 14px; 
+    color: rgba(39, 39, 39, 0.6); 
+  } 
+  .instagram_images img { 
+    width: 300px; 
+    height: auto; 
+    margin: 0 10px; 
+  } 
+   
+  .instagram_images { 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+  } 
